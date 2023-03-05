@@ -1,0 +1,40 @@
+.main-container {
+  background-color: #161624;
+  min-height: 100vh;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+}
+.countries-container {
+  list-style-type: none;
+  border: 1px solid #94a3b8;
+  background-color: #1f1f2f;
+  overflow-y: scroll;
+  height: 46vh;
+  border-radius: 10px;
+  padding-left: 0px;
+}
+.visited-countries-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.no-visited-place {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+.no-countries {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
